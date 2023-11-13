@@ -1,15 +1,16 @@
 # Daniil Rai
 # My contacts
 * Email: testnet02@mail.ru
-* Phone: +375444635883
+* Phone: +375257773483
 * [DaniilRai13](https://github.com/DaniilRai13)
 # About Me
-*I am 20 years old and was born in Pinsk. I want to become a good front-end developer and further study technologies for back-end development. I am active, purposeful and always ready to learn something new.*
+*I am 21 years old and was born in Pinsk. I want to become a good front-end developer and further study technologies for back-end development. I am active, purposeful and always ready to learn something new.*
 # Skills
 1. HTML
 2. CSS, SCSS, Bootstrap
 3. JavaScript (Fundamentals, DOM, Async JavaScript and other)
-4. Photoshop
+4. React(in processing...)
+5. Photoshop
 # Code Example
 Pete likes to bake some cakes. He has some recipes and ingredients. Unfortunately he is not good in maths. Can you help him to find out, how many cakes he could bake considering his recipes?
 
@@ -21,7 +22,7 @@ function cakes(recipe, available) {
         if(ingridient in available){
             let possibleCackes = Math.floor(available[ingridient]/recipe[ingridient])
             if( possibleCackes < temp || !temp ){
-                if(temp == 0) return 0
+                if(!temp) return 0
                 temp = possibleCackes
             } 
         }else{
@@ -33,7 +34,7 @@ function cakes(recipe, available) {
 ```
 
 # Education
-* Belarusian National Technical University
+* Belarusian National Technical University(in processing...)
 	+ Automated information processing systems
 * RS School(in process...)
 # Languages 
